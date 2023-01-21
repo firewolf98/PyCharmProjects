@@ -1,0 +1,47 @@
+def funz():
+    lst=list([1,2,3,4,10,5,7,8,12])
+    lst1=list([x for x in lst if x>4])
+    print(lst)
+    print(lst1)
+    lst2=[2,3.5,"ciao"]
+    print(lst2)
+    lst3=list("calcio")
+    print(lst3)
+    lst.append(15)
+    print(lst)
+    print(lst1)
+    lst.insert(1,56)
+    print(lst)
+    print(lst1)
+    lst4=[1,2,3]
+    lst5=[4,5,6]
+    print(lst4)
+    print(lst5)
+    lst4.extend(lst5)
+    print(lst4)
+    print(len(lst4))
+    lst4.remove(3)
+    print(lst4)
+    lst4.pop(1)
+    print(lst4)
+    lst4.pop()
+    print(lst4)
+    lst4.clear()
+    print(lst4)
+    print(lst5.index(4))
+    print(lst5.index(5,0,2))
+    lst5.append(5)
+    print(lst5.count(5))
+    lst5.reverse()
+    print(lst5)
+    lst5.sort()
+    print(lst5)
+    lst5.sort(reverse=True)
+    print(lst5)
+    lst6=["ciao","miccoli","tre"]
+    lst6.sort(key=len,reverse=True)
+    print(lst6)
+
+
+
+funz()
